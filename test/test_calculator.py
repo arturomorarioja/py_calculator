@@ -48,28 +48,28 @@ def test_subtract_7_from_5_equals_minus_2():
 #
 # Multiply tests
 #
-def test_multiply_6_by_3_returns_18():
+def test_multiply_6_by_3_equals_18():
     assert multiply(6, 3) == 18
 
-def test_multiply_6_by_minus_3_returns_minus_18():
+def test_multiply_6_by_minus_3_equals_minus_18():
     assert multiply(6, -3) == -18
 
-def test_multiply_minus_6_by_3_returns_minus_18():
+def test_multiply_minus_6_by_3_equals_minus_18():
     assert multiply(-6, 3) == -18
 
-def test_multiply_0_by_3_returns_0():
+def test_multiply_0_by_3_equals_0():
     assert multiply(0, 3) == 0
 
-def test_multiply_6_by_0_returns_0():
+def test_multiply_6_by_0_equals_0():
     assert multiply(6, 0) == 0
 
-def test_multiply_6_4_by_4_3_returns_27_52():
+def test_multiply_6_4_by_4_3_equals_27_52():
     assert multiply(6.4, 4.3) == 27.52
 
-def test_multiply_6_48_by_4_35_returns_28_188():
+def test_multiply_6_48_by_4_35_equals_28_188():
     assert multiply(6.48, 4.35) == 28.188
 
-def test_multiply_6_481_by_4_357_returns_28_237717():
+def test_multiply_6_481_by_4_357_equals_28_237717():
     assert multiply(6.481, 4.357) == 28.237717
 
 #
