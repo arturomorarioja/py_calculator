@@ -39,7 +39,7 @@ def test_sum_3_46_and_4_57_equals_8_08():
 def test_subtract_7_from_12_equals_5():
     assert subtract(12, 7) == 5
 
-def test_subtract_7_from_7_equals_minus_0():
+def test_subtract_7_from_7_equals_0():
     assert subtract(7, 7) == 0
 
 def test_subtract_7_from_5_equals_minus_2():
