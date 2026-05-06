@@ -1,6 +1,6 @@
 from app.calculator import sum, subtract, multiply, divide
 
-# Since assert is a builtin command, Pytest is in theory unnecessary.
+# Since the assert command is built into Python, importing pytest would be unnecessary.
 # However, the raise command and the approx function are needed for some tests
 import pytest
 from pytest import approx
